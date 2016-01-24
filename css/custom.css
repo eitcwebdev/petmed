@@ -1,0 +1,43 @@
+/* style sheet custom*/
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid#ddd;
+	color: #999;
+	text-align:center;
+}
+
+.glyphicon {
+	color: #cdae51;
+}
+
+.active .glyphicon {
+	color: #cdae51;
+}
+
+.btn-info {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #FFFFFF;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+
+body {
+	padding-top: 70px;
+}
+
+.tab-pane {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;	
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
